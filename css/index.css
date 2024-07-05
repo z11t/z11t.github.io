@@ -1,0 +1,15 @@
+.amount {
+	width: 100%;
+}
+
+#amount-number {
+	text-align: center;
+}
+
+.tap-tap {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
