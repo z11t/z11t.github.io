@@ -1,15 +1,39 @@
-.amount {
+html, body {
+	font-family: 'Arial';
+	margin: 0;
+	padding: 0;
+	height: 100%;
 	width: 100%;
+	background-color: #11121b;
 }
 
-#amount-number {
-	text-align: center;
+.container {
+	display: block;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: white;
 }
 
-.tap-tap {
+.amount {
+	display: flex;
+	background-color: red;
+	justify-content: center;
+	font-size: 35px;
+}
+
+.tap-img {
 	display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 70%;
     width: 100%;
+    background-color: green;
+}
+
+.tap-tap {
+	background-image: url('images/tree.png');
+	background-size: cover;
+	height: 70%;
+	width: 70%;
 }
